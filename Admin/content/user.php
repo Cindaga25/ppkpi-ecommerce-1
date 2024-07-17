@@ -1,5 +1,5 @@
 <?php
-$query = mysqli_query($koneksi, "SELECT user.*, level.nama_level LEFT FROM user JOIN level ON user.id_level = level.id ORDER BY user.id DESC");
+$query = mysqli_query($koneksi, "SELECT user.*, level.nama_level FROM user JOIN level ON user.id_level = level.id ORDER BY user.id DESC");
 if (isset($_GET['delete'])) {
     $id = $_GET['delete'];
 
