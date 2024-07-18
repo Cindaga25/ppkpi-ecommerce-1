@@ -85,13 +85,13 @@
                             <i class="far fa-circle nav-icon"></i>
                             <p>Boxed</p>
                         </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="../layout/fixed-sidebar.html" class="nav-link">
-                            <i class="far fa-circle nav-icon"></i>
-                            <p>Fixed Sidebar</p>
-                        </a>
                     </li> -->
+                    <li class="nav-item">
+                        <a href="?pg=member" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Member</p>
+                        </a>
+                    </li>
                     <li class="nav-item">
                         <a href="?pg=produk" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
@@ -131,7 +131,7 @@
                 <a href="?pg=setting" class="nav-link">
                     <i class="nav-icon far fa-image"></i>
                     <p>
-                        Setting Website 
+                        Setting Website
                     </p>
                 </a>
             </li>
