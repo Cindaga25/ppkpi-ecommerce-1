@@ -1,8 +1,8 @@
 <?php
-if (isset($_SESSION['id_member'])) {
-    header("location:?pg=member&message=regist-dulu");
+if (!isset($_SESSION['id_member'])) {
+    header("location:?pg=member&message=Upss-REGISTER-DULU");
 }
-
+$queryProduk = mysqli_query($koneksi, "SELECT * FROM barang ORDER BY id DESC LIMIT 3");
 ?>
 <!-- Start Hero Section -->
 <div class="hero">
