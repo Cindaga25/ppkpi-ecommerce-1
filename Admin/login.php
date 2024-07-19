@@ -11,7 +11,7 @@ if (isset($_POST['login'])) {
         if ($dataUser['password'] == $password) {
             $_SESSION['nama_lengkap'] = $dataUser['nama_lengkap'];
             $_SESSION['email'] = $dataUser['email'];
-            $_SESSION['id_level'] = $dataUser['id_level'];
+            // $_SESSION['id_level'] = $dataUser['id_level'];
             header('location: index.php');
             exit;
         }
